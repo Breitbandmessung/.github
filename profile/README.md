@@ -8,33 +8,33 @@ This organization provides the open source components of the service [breitbandm
 
 The client modules provide the measurement libraries as well as demo applications for Android, iOS, Windows, MacOS, Linux, and Browsers. Using the server module (see below) deployed on a measurement peer, clients can perform Internet Access Speed (IAS) measurements which report the measured round-trip time, the measured download throughput, and the measured upload throughput, as well as meta information like, e.g., the used IP addresses and the network connectivity.
 
-### ias-android ###
+### [ias-android](https://github.com/Breitbandmessung/ias-android) ###
 IAS demo application for Android. Uses the modules:
-* ias-android-common
-* ias-android-coverage
-* ias-android-speed
-* ias-client-cpp
-* ias-libtool
+* [ias-android-common](https://github.com/Breitbandmessung/ias-android-common)
+* [ias-android-speed](https://github.com/Breitbandmessung/ias-android-speed)
+* [ias-android-coverage](https://github.com/Breitbandmessung/ias-android-coverage)
+* [ias-client-cpp](https://github.com/Breitbandmessung/ias-client-cpp)
+* [ias-libtool](https://github.com/Breitbandmessung/ias-libtool)
 
-### ias-ios ###
+### [ias-ios](https://github.com/Breitbandmessung/ias-ios) ###
 IAS measurement library and demo application for iOS. Uses the modules:
-* ias-client-cpp
-* ias-libtool
+* [ias-client-cpp](https://github.com/Breitbandmessung/ias-client-cpp)
+* [ias-libtool](https://github.com/Breitbandmessung/ias-libtool)
 
-### ias-desktop ###
+### [ias-desktop](https://github.com/Breitbandmessung/ias-desktop) ###
 IAS measurement library and demo application for Windows, MacOS, and Linux. Uses the module:
-* ias-client-js
+* [ias-client-js](https://github.com/Breitbandmessung/ias-client-js)
 
-### ias-client-js ###
+### [ias-client-js](https://github.com/Breitbandmessung/ias-client-js) ###
 IAS measurement library and demo application for Browsers.
 
 ## Server Module ##
 
 The server module provides the measurement peer for the client modules.
 
-### ias-server ###
+### [ias-server](https://github.com/Breitbandmessung/ias-server) ###
 IAS measurement server for Linux. Uses the module:
-* ias-libtool
+* [ias-libtool](https://github.com/Breitbandmessung/ias-libtool)
 
 ---------------
 
